@@ -1,0 +1,124 @@
+.HeaderBody {
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+.Wrapper, .HeaderWrapper {
+    width: 90%;
+    height: 100%;
+}
+
+.HeaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderWrapper h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.HeaderWrapper h2 span {
+    color: red;
+}
+
+nav {
+    width: 40%;
+    /* background: #000; */
+    /* margin-right: 10%; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.HeaderIcons {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.HeaderIconsIcon {
+    cursor: pointer;
+}
+
+.cartIcon {
+    position: relative;
+    cursor: pointer;
+}
+
+.cartIconBox {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+
+.Reg {
+    width: 7%;
+    height: 15%;
+    background: white;
+    position: absolute;
+    top: 12%;
+    right: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 320ms ease-in ;
+}
+
+.RegUl {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    color: black;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.RegUl li {
+    font-size: 15px;
+    margin: 5px 0px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.UserBigBox {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

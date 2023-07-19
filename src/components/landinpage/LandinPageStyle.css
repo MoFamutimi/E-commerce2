@@ -1,0 +1,143 @@
+.Wrapper {
+    width: 90%;
+    height: 100%;
+}
+
+.Land1Box {
+  /* background: palevioletred; */
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.clothingimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Land1Body {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LandProduct {
+    margin-top: 3%;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.LandProductNav {
+    width: 100%;
+}
+
+.LandProductNav ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+ 
+.LandProductNav ul li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.Active {
+    color: palevioletred;
+}
+
+
+
+
+.AllProduct {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allproductcard {
+    width: 23%;
+    height: 400px;
+    margin: 3% 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 350ms ease-in-out;
+}
+
+.allproductcard:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.01);
+}
+
+.imgCard {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    position: relative;
+}
+
+.imgCard img{
+    width: 100%;
+    height: 100%;
+}
+
+.IconShow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 350ms ease-in;
+    display: flex;
+    align-items: flex-end;
+}
+
+.imgCard:hover+.IconShow {
+    opacity: 1;
+}
+
+.IconShow:hover {
+   opacity: 1;
+}
+
+.IconShowDiv {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;  
+}
+
+.IconSma {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #000;
+    margin: 0px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.textInfo {
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.textInfo h5 {
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+.textInfo p {
+    font-size: 16px;
+    font-family: sans-serif;
+}

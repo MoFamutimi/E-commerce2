@@ -1,0 +1,180 @@
+.AuthBody {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .holder{
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+  }
+  
+  .holder .left{
+    width: 57%;
+    height: 100%;
+    background-image: linear-gradient(black, rgb(4, 4, 73));
+    object-fit: cover;
+  }
+  
+  .left img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+  }
+  
+  .right{
+    width: 50%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+  }
+  
+  .right .description{
+    width: 90%;
+    height: 17%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+  }
+  
+  .right .login-page{
+    width: 90%;
+    height: 83%;
+  }
+  
+  .right .description h1{
+    font-size: 25px;
+    color: black;
+  }
+  
+  .right .description h3{
+    font-size: 13px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  
+  .right .description .logo{
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cart{
+    font-size: 35px;
+  }
+  
+  form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+  }
+  
+  form .login{
+    width: 80%;
+    /* margin: 5px; */
+    position: relative;
+  }
+  
+  form .login input{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    background: none;
+    padding-left: 13%;
+    border: 1px solid gray;
+    color: black;
+    outline: none;
+  }
+  
+  form .login .user{
+    position: absolute;
+    color: gray;
+    top: 30%;
+    left: 5%;
+  }
+  
+  form .login .eyes{
+    color: gray;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    cursor: pointer;
+  }
+  
+  .Forget{
+    color: rgb(14, 14, 139);
+    cursor: pointer;
+  }
+
+  .Forget:hover{
+    text-decoration: underline;
+  }
+  
+  .Btn{
+    width: 80%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgb(14, 14, 139);
+    border: none;
+    color: whitesmoke;
+    font-weight: 800;
+    margin-top: 3%;
+    cursor: pointer;
+  }
+  
+  .Btn:hover{
+    background-color: black;
+    color: white;
+    transition: all 300ms ease-in;
+  }
+  
+  .socialmedia{
+    width: 100%;
+    height: 15%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .socialmedia .social{
+    font-size: 22px;
+  } 
+  
